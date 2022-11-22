@@ -23,17 +23,18 @@
             android:layout_marginEnd="10dp"
             android:layout_marginBottom="10dp"
             android:background="@drawable/back" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="150dp"
+            android:layout_marginLeft="125dp"
             android:layout_marginTop="22dp"
             android:gravity="center"
             android:src="@drawable/my_image"
             android:text="Upload Photo Screen"
-            android:textStyle="bold"
+            android:textColor="#FFFFFF"
             android:textSize="20dp"
-            android:textColor="#FFFFFF"></TextView>
+            android:textStyle="bold"></TextView>
     </RelativeLayout>
   <ImageView
       android:layout_width="200dp"

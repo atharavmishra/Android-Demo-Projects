@@ -49,7 +49,6 @@ public class Upload_Photo_Actvity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_upload_photo_actvity);
-
         img = findViewById(R.id.profile_image);
         btnupload_again = (Button) findViewById(R.id.sbmit_upload_again);
         back = (Button) findViewById(R.id.back);
@@ -85,12 +84,7 @@ public class Upload_Photo_Actvity extends AppCompatActivity {
                     }
                 }).check();
 
-//        btnupload.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                uploadtoserver();
-//            }
-//        });
+
         btnupload_again.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
