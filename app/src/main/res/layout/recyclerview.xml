@@ -19,7 +19,6 @@
             android:layout_height="60dp"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="20dp"
-
             android:paddingRight="250dp"
 
             app:cardCornerRadius="60dp">
