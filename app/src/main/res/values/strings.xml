@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Demo Application</string>
+    <string name="Button_upload_again">Upload Again</string>
+    <string name="Button_upload">Upload</string>
+    <string name="name">Johnny Depp</string>
+    <string name="time">1 mins ago</string>
+
+</resources>

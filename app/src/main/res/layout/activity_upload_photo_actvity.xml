@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <FrameLayout android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        >
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:orientation="vertical"
+        android:background="#58c4d4">
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="43dp"
+            android:layout_height="48dp"
+            android:layout_gravity="left"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/back" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="22dp"
+            android:gravity="center"
+            android:src="@drawable/my_image"
+            android:text="Upload Photo Screen"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"></TextView>
+    </RelativeLayout>
+  <ImageView
+      android:layout_width="200dp"
+      android:layout_height="200dp"
+      android:layout_gravity="center"
+      android:layout_marginBottom="160dp"
+      android:src="@drawable/background"
+      android:id="@+id/profile_image">
+
+  </ImageView>
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/Button_upload_again"
+        android:background="#58c4d4"
+        android:id="@+id/sbmit_upload_again">
+
+    </Button>
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_gravity="bottom"
+        android:background="#58c4d4"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+
+        <ImageView
+            android:layout_width="43dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:src="@drawable/camera"
+            android:id="@+id/sbmit_camera"
+            />
+    </LinearLayout>
+    </FrameLayout>
